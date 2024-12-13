@@ -1,0 +1,28 @@
+{
+  "name": "f1-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ingest": "ts-node src/ingest.ts",
+    "answer": "ts-node src/answer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@datastax/astra-db-ts": "^1.5.0",
+    "cassandra-driver": "^4.7.2",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.3.6",
+    "openai": "^4.76.0",
+    "playwright": "^1.49.0",
+    "ts-node": "^10.9.2"
+  }
+}
